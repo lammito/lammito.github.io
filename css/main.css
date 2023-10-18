@@ -13,7 +13,16 @@ body {
 
 .additional-banner-info {
       display: none;
+	  position: relative;
+      text-align: center;      
+	  background-color: #373E8F !important;
 	  }
+
+.banner-hk01 {
+   .banner-content-toggle {
+      background-color: #373E8F;
+	  }
+}	  
 
 a {
   text-decoration: none;

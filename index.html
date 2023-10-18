@@ -49,13 +49,11 @@
       <div class="caption">
         <h3>Photo One 開始</h3>
         <p>
-		<div class="banner-container banner-hk01">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, tenetur. <a href="#" class="banner-content-toggle read-more">More details</a>
-
-		   <div class="additional-banner-info">
+		<div class="banner-container banner-hk01">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, tenetur. <a href="#" class="banner-content-toggle read-more">&#9654;</a><div class="additional-banner-info">
 			  <p>I'm additional banner info. I'm hidden by default, but show once the toggle link is clicked.</p>
 			  <p>I can contain any valid HTML.</p>
-		   </div>
-		   
+		   </div> Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, tenetur. dolor sit amet consectetur adipisicing elit. Quo, tenetur. dolor sit amet consectetur adipisicing elit. Quo, tenetur.
+
 		</div>
 		</p>
       </div>
@@ -63,7 +61,7 @@
       <div class="caption">
         <h3>Photo Two</h3>
         <p>
-		   <div class="banner-container banner-hk02">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, tenetur. <a href="#" class="banner-content-toggle read-more">More details</a>
+		   <div class="banner-container banner-hk01">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, tenetur. <a href="#" class="banner-content-toggle read-more">&#9654;</a>
 
 		   <div class="additional-banner-info">
 			  <p>I'm additional banner info. I'm hidden by default, but show once the toggle link is clicked.</p>
@@ -126,16 +124,16 @@
    $(".banner-content-toggle").click(function() {
       
       // open hidden container
-      $(this).closest(".banner-container").find(".additional-banner-info").slideToggle();
+      $(this).closest(".banner-container").find(".additional-banner-info").toggle("500", "swing");
       
       // add active class to toggle
       $(this).toggleClass('active');
       
       // change button or link text       
       if ($(this).hasClass('active')) {
-         $(this).html('Close');
+         $(this).html('&#9665;');
       } else {
-         $(this).html('More details')
+         $(this).html('&#9654;')
       };
       
       return false;
