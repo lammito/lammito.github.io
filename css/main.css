@@ -10,6 +10,11 @@ body {
   height: auto;
 }
 
+
+.additional-banner-info {
+      display: none;
+	  }
+
 a {
   text-decoration: none;
     color:rgba(13,51,134,1);
