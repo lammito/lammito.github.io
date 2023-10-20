@@ -49,12 +49,15 @@
       <div class="caption">
         <h3>Photo One 開始</h3>
         <p>
-		<div class="banner-container banner-hk01">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, tenetur. <a href="#" class="banner-content-toggle read-more">&#9654;</a><div class="additional-banner-info">
-			  <p>I'm additional banner info. I'm hidden by default, but show once the toggle link is clicked.</p>
-			  <p>I can contain any valid HTML.</p>
-		   </div> Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, tenetur. dolor sit amet consectetur adipisicing elit. Quo, tenetur. dolor sit amet consectetur adipisicing elit. Quo, tenetur.
-
-		</div>
+			<div class="banner-container banner-hk01">
+				Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, tenetur. 
+				<a href="#" class="banner-content-toggle read-more">&#9654;</a><span class="additional-banner-info">
+			 			 I'm additional banner info. I'm hidden by default, but show once the toggle link is clicked. I can contain any valid HTML.I can contain any valid HTML.I can contain any valid HTML.I can contain any valid HTML.
+		   			</span>
+		   		
+		   		Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, tenetur. dolor sit amet consectetur adipisicing elit. Quo, tenetur. dolor sit amet consectetur adipisicing elit. Quo, tenetur.
+				
+			</div>
 		</p>
       </div>
       <img src="https://source.unsplash.com/1600x900/?nature,trees" alt="">
@@ -124,7 +127,8 @@
    $(".banner-content-toggle").click(function() {
       
       // open hidden container
-      $(this).closest(".banner-container").find(".additional-banner-info").toggle("500", "swing");
+      $(this).closest(".banner-container").find(".additional-banner-info").toggle("slow");
+	  $(this).closest(".banner-container").find(".additional-banner-info").css('display','inline-flex');
       
       // add active class to toggle
       $(this).toggleClass('active');

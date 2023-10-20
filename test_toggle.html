@@ -1,0 +1,77 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+
+<style>
+.hidden {
+    visibility: hidden;
+}
+
+.inline {
+    display: inline-flex;
+    background: red;
+}
+</style>
+
+</head>
+
+<body>
+
+
+
+
+
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+
+
+
+
+
+
+<div class="hidden inline" id="hidden">
+    <p>Lorem ipsum</p>
+</div>
+<div class="inline">
+    <p>Lorem ipsum</p>
+</div>
+
+<button type="button" onclick="toggle()">Toggle</button>
+
+
+
+<p>
+
+
+<div class="hidden inline" id="hidden">
+    <p>Lorem ipsum2222</p>
+</div>
+<div class="inline">
+    <p>Lorem ipsum222222</p>
+</div>
+
+<button type="button" onclick="toggle()">Toggle22222</button>
+</p>
+
+
+
+
+
+<script type="text/javascript">
+function toggle() {
+  var hidden = document.getElementById("hidden");
+    
+  if(hidden.getAttribute("class") == "hidden inline")
+    hidden.setAttribute("class", "inline");
+  else
+    hidden.setAttribute("class", "hidden inline");
+}
+</script>
+
+
+</body>
+</html>

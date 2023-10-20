@@ -11,16 +11,22 @@ body {
 }
 
 
+
 .additional-banner-info {
       display: none;
-	  position: relative;
-      text-align: center;      
-	  background-color: #373E8F !important;
+	  padding: 0.1em 0.3em;	  
+      text-align: left;      
+	        font-size: 0.8em;
+	  margin-left:0;
+	  background-color: #5CA1D9;
 	  }
 
 .banner-hk01 {
    .banner-content-toggle {
-      background-color: #373E8F;
+      font-size: 0.8em;
+	  	  margin-right:0;
+	  padding: 0.1em 0.3em;
+      background-color: #5CA1D9;
 	  }
 }	  
 
