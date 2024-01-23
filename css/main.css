@@ -170,14 +170,17 @@ footer h3 {
   #landing-image {
     height: 100vh;
   }
-}
 
 body {
 font-size: 200%;
+	}
+
+img {
+  display: block;
+  width: 99vw;
+	}
+
 }
-
-
-
 
 
 /* Screen Sizes 700px and Up */
