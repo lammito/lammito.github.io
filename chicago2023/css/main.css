@@ -60,6 +60,8 @@ h2 {
 }
 
 img {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
   display: block;
   width: 94vw;
   max-width: 940px;
