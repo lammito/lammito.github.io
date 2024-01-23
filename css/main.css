@@ -26,7 +26,7 @@ body {
 	text-align: left;
 
    .banner-content-toggle {
-      font-size: 0.8em;
+      font-size: 0.8rem;
 	  	  margin-right:0;
 	  padding: 0.1em 0.3em;
       background-color: #5CA1D9;
@@ -170,6 +170,13 @@ footer h3 {
     height: 100vh;
   }
 }
+
+
+
+
+
+
+
 
 /* Screen Sizes 700px and Up */
 @media (min-width: 700px) {
