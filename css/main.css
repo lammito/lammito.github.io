@@ -61,8 +61,8 @@ h2 {
 
 img {
   display: block;
-  width: 95vw;
-  max-width: 950px;
+  width: 94vw;
+  max-width: 940px;
   height: auto;
   margin:0 auto;
 }
@@ -143,8 +143,8 @@ display: flex;
   text-align: center;
     margin: auto;
 	line-height: 1.65rem;
-  width: 95vw;
-  max-width: 1150px;
+  width: 94vw;
+  max-width: 1140px;
 }
 
 footer {
