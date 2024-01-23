@@ -170,16 +170,6 @@ footer h3 {
   #landing-image {
     height: 100vh;
   }
-
-body {
-font-size: 200%;
-	}
-
-img {
-  display: block;
-  width: 99vw;
-	}
-
 }
 
 
@@ -188,4 +178,17 @@ img {
   .btn {
     padding: 1rem 3rem;
   }
+}
+
+
+/* Mobile */
+@media (max-width: 499px) {
+body {
+font-size: 200%;
+	}
+
+img {
+  display: block;
+  width: 99vw;
+	}
 }
