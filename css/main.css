@@ -77,13 +77,14 @@ main {
 }
 
 #landing {
+display: flex;
   background: #fff;
 }
 
 #landing-text {
   display: flex;
   flex: 0 1 40vw;
-  height: 50vh;
+  height: 99vh;
   justify-content: center;
   align-items: center;
   text-align: center;
@@ -100,7 +101,7 @@ main {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  height: 50vh;
+  height: 99vh;
   flex: 0 1 60vw;
   margin: 0;
 }
@@ -138,11 +139,11 @@ main {
 }
 
 .caption {
-  padding: 0.8rem;
+  padding: 0.7rem;
   text-align: center;
     margin: auto;
-	line-height: 1.6rem;
-  max-width: 80%;
+	line-height: 1.65rem;
+  max-width: 82%;
 }
 
 footer {
