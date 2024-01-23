@@ -181,21 +181,3 @@ footer h3 {
 }
 
 
-/* Mobile */
-@media (max-width: 499px) {
-img {
-  display: block;
-  width: 99vw;
-	}
-
-
-.caption {
-  padding: 0.1rem;
-  text-align: center;
-    margin: auto;
-	font-size: 3rem;
-	line-height: 2rem;
-  max-width: 98%;
-}
-
-}
